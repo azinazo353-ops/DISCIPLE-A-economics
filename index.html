@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disciple A | Economics</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #080e1b;
+  color: #f4f6fb;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 440px;
+  background: #111a2b;
+  border: 1px solid #283650;
+  border-radius: 22px;
+  padding: 30px 24px;
+  text-align: center;
+}
+
+.brand {
+  color: #f4c65e;
+  font-size: 13px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.tag {
+  display: inline-block;
+  background: #202e46;
+  color: #f4c65e;
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 11px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 14px;
+}
+
+.description {
+  color: #a9b6ca;
+  line-height: 1.7;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.stats {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.stat {
+  background: #1b273b;
+  flex: 1;
+  padding: 15px 5px;
+  border-radius: 12px;
+}
+
+.stat strong {
+  display: block;
+  color: #f4c65e;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.stat span {
+  font-size: 11px;
+  color: #a9b6ca;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.join {
+  background: #2484f4;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.verify {
+  background: #f4c65e;
+  color: #101522;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+#status {
+  margin-top: 18px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #a9b6ca;
+}
+
+.footer {
+  color: #68768d;
+  font-size: 11px;
+  margin-top: 26px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="brand">DISCIPLE A</div>
+
+  <div class="tag">UNIVERSITY CHALLENGE</div>
+
+  <h1>Economics Quiz</h1>
+
+  <p class="description">
+    Are you ready to challenge your understanding?
+    Test your reasoning, master the concepts,
+    and discover how deeply you understand Economics.
+  </p>
+
+  <div class="stats">
+    <div class="stat">
+      <strong>30</strong>
+      <span>Questions</span>
+    </div>
+
+    <div class="stat">
+      <strong>Chapter 1</strong>
+      <span>Coverage</span>
+    </div>
+
+    <div class="stat">
+      <strong>BDU</strong>
+      <span>Level</span>
+    </div>
+  </div>
+
+  <a class="btn join"
+     href="https://t.me/DiscipleA"
+     target="_blank"
+     rel="noopener">
+     Join Disciple A Channel
+  </a>
+
+  <button class="btn verify" onclick="verify()">
+    Verify Membership
+  </button>
+
+  <p id="status">
+    Join the channel to participate in the challenge.
+  </p>
+
+  <div class="footer">
+    Learn • Think • Achieve<br><br>
+    © 2026 Disciple A
+  </div>
+
+</div>
+
+<script>
+function verify() {
+  document.getElementById("status").innerText =
+    "Verification system is not connected yet. We will connect it soon!";
+}
+</script>
+
+</body>
+</html>
